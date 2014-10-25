@@ -11,7 +11,7 @@ const int Maxsize = 1000;    //最大值为1000
 class highSpeedRail
 {
    public：
-         void highSpeedRail(int array[],int n, int e);        //构造函数，建立一个有n个站点，e条线路的高铁网络图
+         highSpeedRail(int array[],int n, int e);        //构造函数，建立一个有n个站点，e条线路的高铁网络图
          ~highSpeedRail();                                          //析构函数
 		 bool isExisted(string station);                                      //站点station是否存在
          void addStation();                                              //增加一个站台
